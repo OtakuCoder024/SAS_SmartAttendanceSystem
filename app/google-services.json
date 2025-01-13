@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "152218175904",
+    "firebase_url": "https://capstone1-bb930-default-rtdb.firebaseio.com",
+    "project_id": "capstone1-bb930",
+    "storage_bucket": "capstone1-bb930.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152218175904:android:89ace98d753b8ab87ebcc5",
+        "android_client_info": {
+          "package_name": "com.example.smartattendancesystem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmVz7qox9kogf_kgysoD9TSuFkRlvvegQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,58 @@
+[versions]
+agp = "8.5.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.9.2"
+constraintlayout = "2.1.4"
+googleGmsGoogleServices = "4.4.2"
+firebaseDatabase = "21.0.0"
+circleimageview = "3.1.0"
+firebaseAuth = "23.1.0"
+androidMail = "1.6.7"
+androidActivation = "1.6.7"
+firebaseFunctions = "21.1.0"
+core = "3.5.3"
+zxingAndroidEmbedded = "4.3.0"
+zxing = "1.9.8"
+materialCalendarview = "1.4.3"
+materialCalendarviewVersion = "1.7.0"
+recyclerview = "1.3.2"
+colorpicker = "0.0.15"
+ambilwarna = "2.0.1"
+ambilwarnaVersion = "2.0.1"
+firebaseStorage = "21.0.1"
+glide = "5.0.0-rc01"
+
+[libraries]
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version = "1.9.3" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
+circleimageview = { group = "de.hdodenhof", name = "circleimageview", version.ref = "circleimageview" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+android-mail = { group = "com.sun.mail", name = "android-mail", version.ref = "androidMail" }
+android-activation = { group = "com.sun.mail", name = "android-activation", version.ref = "androidActivation" }
+firebase-functions = { group = "com.google.firebase", name = "firebase-functions", version.ref = "firebaseFunctions" }
+core = { group = "com.google.zxing", name = "core", version.ref = "core" }
+zxing-android-embedded = { group = "com.journeyapps", name = "zxing-android-embedded", version.ref = "zxingAndroidEmbedded" }
+zxing = { group = "me.dm7.barcodescanner", name = "zxing", version.ref = "zxing" }
+material-calendarview = { group = "com.prolificinteractive", name = "material-calendarview", version.ref = "materialCalendarview" }
+prolificinteractive-material-calendarview = { group = "com.prolificinteractive", name = "material-calendarview", version.ref = "materialCalendarviewVersion" }
+recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
+colorpicker = { group = "com.github.QuadFlask", name = "colorpicker", version.ref = "colorpicker" }
+ambilwarna = { group = "yuku.ambilwarna", name = "ambilwarna", version.ref = "ambilwarna" }
+yukuku-ambilwarna = { group = "com.github.yukuku", name = "ambilwarna", version.ref = "ambilwarnaVersion" }
+firebase-storage = { group = "com.google.firebase", name = "firebase-storage", version.ref = "firebaseStorage" }
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
+

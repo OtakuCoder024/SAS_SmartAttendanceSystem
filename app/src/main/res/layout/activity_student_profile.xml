@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/samplebg"
+    android:padding="10dp"
+    tools:context=".Student.Profile">
+
+    <ImageView
+        android:id="@+id/prevBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/prevBtn"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="17dp"
+        android:text="Profile"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/profileCircle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/textView10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/circle" />
+
+    <TextView
+        android:id="@+id/nameTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/profileCircle"
+        android:text="Lance Rhenier Ancheta"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/emailTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameTxt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:text="testemail@gmail.com" />
+
+    <Button
+        android:id="@+id/editBtn"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/emailTxt"
+        android:layout_alignEnd="@id/nameP"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/samplebg1"
+        android:backgroundTint="#E97272"
+        android:text="Edit Profile"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/uploadBtn"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/emailTxt"
+        android:layout_marginTop="30dp"
+        android:layout_alignStart="@id/nameP"
+        android:background="@drawable/samplebg1"
+        android:backgroundTint="#E97272"
+        android:text="Change Profile"
+        android:textSize="10sp" />
+
+    <EditText
+        android:id="@+id/nameP"
+        android:layout_width="300dp"
+        android:layout_height="38dp"
+        android:layout_below="@id/editBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/textviews"
+        android:ems="10"
+        android:hint="Full Name"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:textColor="#000000"
+        android:textColorHint="#B1AEAE" />
+
+    <EditText
+        android:id="@+id/sectionP"
+        android:layout_width="300dp"
+        android:layout_height="38dp"
+        android:layout_below="@id/nameP"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/textviews"
+        android:ems="10"
+        android:hint="Course &amp; Section"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:textColor="#000000"
+        android:textColorHint="#B1AEAE" />
+
+    <EditText
+        android:id="@+id/numP"
+        android:layout_width="300dp"
+        android:layout_height="38dp"
+        android:layout_below="@id/sectionP"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/textviews"
+        android:ems="10"
+        android:hint="Tel Num"
+        android:inputType="number"
+        android:paddingLeft="10dp"
+        android:textColor="#000000"
+        android:textColorHint="#B1AEAE" />
+
+    <EditText
+        android:id="@+id/dobP"
+        android:layout_width="150dp"
+        android:layout_height="38dp"
+        android:layout_below="@id/numP"
+        android:layout_marginTop="20dp"
+        android:layout_alignStart="@+id/numP"
+        android:background="@drawable/textviews"
+        android:clickable="true"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="YYYY-MM-dd"
+        android:inputType="none"
+        android:paddingLeft="10dp"
+        android:textColor="#000000"
+        android:textColorHint="#B1AEAE" />
+
+    <EditText
+        android:id="@+id/ageP"
+        android:layout_width="60dp"
+        android:layout_height="38dp"
+        android:layout_below="@id/numP"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/dobP"
+        android:background="@drawable/textviews"
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="number"
+        android:paddingLeft="10dp"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textColorHint="#B1AEAE" />
+
+    <EditText
+        android:id="@+id/sexP"
+        android:layout_width="70dp"
+        android:layout_height="38dp"
+        android:layout_below="@id/numP"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignEnd="@+id/numP"
+        android:background="@drawable/textviews"
+        android:ems="10"
+        android:hint="Sex"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textColorHint="#B1AEAE"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/emailP"
+        android:layout_width="300dp"
+        android:layout_height="38dp"
+        android:layout_below="@id/dobP"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/textviews"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp"
+        android:textColor="#000000"
+        android:textColorHint="#B1AEAE" />
+
+
+</RelativeLayout>
